@@ -1,0 +1,154 @@
+{
+  "schema": "casimirbot.environment_package_scripts_source_candidate.v1",
+  "status": "private-technical-review",
+  "sourceCommit": "0272ef68f3bdfa1a822261cc56a74bebea3d40e7",
+  "parentInventorySha256": "8d063cb49bb96b163bc02f7274ed91887535e04f011325efe708f31de4c24cb9",
+  "sourceFiles": 28,
+  "sourceBytes": 199863,
+  "files": [
+    {
+      "path": "scripts/environment-packages/build-clock-native-candidate.mjs",
+      "sha256": "45354ee8398fa4cdec972580dd81ac3e4020dc82032c22a7cfee67f783a71296",
+      "bytes": 2565
+    },
+    {
+      "path": "scripts/environment-packages/build-private-clock.mjs",
+      "sha256": "a9543a5205c28556fbe726c8c4125f0eb7932c89aad45a2c568c30351ff0924c",
+      "bytes": 4345
+    },
+    {
+      "path": "scripts/environment-packages/checkpoint-local-mvp.mjs",
+      "sha256": "ff168899aef0fbcb8cf0f893016cabc8e76a10fb72ea9a04ab0271ff900e9a71",
+      "bytes": 16238
+    },
+    {
+      "path": "scripts/environment-packages/launch-local-mvp.ps1",
+      "sha256": "1ae4a52ad30a4a792c61877d644ec34843ebbba52740f72ec1d62ac9addcc919",
+      "bytes": 4526
+    },
+    {
+      "path": "scripts/environment-packages/launch-private-clock-app.mjs",
+      "sha256": "24cfd7e439d78d908f359a887d9bfcc39695a28b28c561202455fe87761347f2",
+      "bytes": 6893
+    },
+    {
+      "path": "scripts/environment-packages/measure-clock-bridge-phases.mjs",
+      "sha256": "34db13c0a673139616daaa92cf09827cb0bc911754de8270bbae994db3806c03",
+      "bytes": 11115
+    },
+    {
+      "path": "scripts/environment-packages/measure-private-clock-host.ts",
+      "sha256": "582eecb51e591e300fda187fbf9802376752e2776ac030b6a3db1ba34a18afdb",
+      "bytes": 8493
+    },
+    {
+      "path": "scripts/environment-packages/measure-windows-clock-startup.mjs",
+      "sha256": "34633d114da330be0a2b88ec74ec7d6b9f43cb0f7766dc09297ffb4c921c0443",
+      "bytes": 5446
+    },
+    {
+      "path": "scripts/environment-packages/package-local-mvp.mjs",
+      "sha256": "3b3894e6f105b0783c9c281146a81930c398fcdb0d4735d158433bbe069dbd50",
+      "bytes": 5062
+    },
+    {
+      "path": "scripts/environment-packages/prepare-private-clock-app.mjs",
+      "sha256": "78f27ac9b37ef188371babcca6df02f0dfbece018cdab05b8d1cda6f4563d29c",
+      "bytes": 11159
+    },
+    {
+      "path": "scripts/environment-packages/private-clock-launch-records.mjs",
+      "sha256": "7dda13beaf2d183bc400e6a34cd8deba0d25f836aef345609803e3c325520926",
+      "bytes": 1867
+    },
+    {
+      "path": "scripts/environment-packages/report-local-release-readiness.ps1",
+      "sha256": "6f6b73ec44c46adc50214ed72875bad0a203fe26d505823de2ad93bc55e06fed",
+      "bytes": 3389
+    },
+    {
+      "path": "scripts/environment-packages/review-local-mvp-client-drift.mjs",
+      "sha256": "44a33f3cc2e4493f1372bc0c0ce9e2902b203d9e9aab18a5b73fc6bd2e958fed",
+      "bytes": 2516
+    },
+    {
+      "path": "scripts/environment-packages/review-local-mvp-dependencies.cjs",
+      "sha256": "6492d5c2f036d7b03dcb90e4524847570591891824968925ccf651a44f116251",
+      "bytes": 6914
+    },
+    {
+      "path": "scripts/environment-packages/tar-archive.mjs",
+      "sha256": "3667f7891200cf18430bd6ec082996a0d55c423ab512d66d1f8076ee81a66f65",
+      "bytes": 1119
+    },
+    {
+      "path": "scripts/environment-packages/test-clock-native-faults.mjs",
+      "sha256": "f3520c407ea44da0f14d05ea2b9fc7039eb4477c2b2da36248f4ab0acad14646",
+      "bytes": 7738
+    },
+    {
+      "path": "scripts/environment-packages/test-clock-prepared-bridge.mjs",
+      "sha256": "cce04ecc7d8b5fe9f584b16978a85f21fb7c5dd12666d4cdc9238e15d6d2dc81",
+      "bytes": 11791
+    },
+    {
+      "path": "scripts/environment-packages/test-desktop-clock-ipc.mjs",
+      "sha256": "f57ee91dde977dd150043d2ac514dc2623acbcc0bb410a8ab9ae0786be405d8e",
+      "bytes": 3566
+    },
+    {
+      "path": "scripts/environment-packages/test-desktop-clock-ui.mjs",
+      "sha256": "da2bdf3ce3b2a2f03259d7b1ea1b8f73cafbb1dc227d9935f289bdb52ae3db58",
+      "bytes": 15758
+    },
+    {
+      "path": "scripts/environment-packages/test-desktop-lifecycle.mjs",
+      "sha256": "3fdbebb75fac189847154817a31f66cef987b637488b2db11c998afaf0bff5ea",
+      "bytes": 2567
+    },
+    {
+      "path": "scripts/environment-packages/test-windows-clock-isolation-lifecycle.mjs",
+      "sha256": "fe97ec10790170ca9963238bf9bc1ab09367785e88fb9d9d11ff2f02c0554754",
+      "bytes": 9920
+    },
+    {
+      "path": "scripts/environment-packages/test-windows-clock-isolation.mjs",
+      "sha256": "5847be0cc779499bc0106036e3f9fa38d21228728b4c3c60a1279a6354f5a9bd",
+      "bytes": 8631
+    },
+    {
+      "path": "scripts/environment-packages/test-windows-clock-job.mjs",
+      "sha256": "d8d467356f57dc806ed177aff292a33c4f125b8dac918ac0e941c565e6ebda56",
+      "bytes": 12687
+    },
+    {
+      "path": "scripts/environment-packages/test-windows-clock-local-endpoints.mjs",
+      "sha256": "9327264524dd5e6945684a67cb53e0d514516620477dd6f4ef45549d3d30b67b",
+      "bytes": 11825
+    },
+    {
+      "path": "scripts/environment-packages/test-windows-clock-network-families.mjs",
+      "sha256": "bfa23be5f9f1fbf53b92b7d0f28008e03570474d9ab409d323f27f96e7fe7a48",
+      "bytes": 6838
+    },
+    {
+      "path": "scripts/environment-packages/update-local-mvp-service.mjs",
+      "sha256": "1e95cee9c51e1ff03aaf65587de46f4ed73093dc257150ecde913e683d0b4b5f",
+      "bytes": 5527
+    },
+    {
+      "path": "scripts/environment-packages/update-local-mvp-static.mjs",
+      "sha256": "59d1b9e52cd197cb748106184cfcc052ae094db638f488ae3356d51216a1bee8",
+      "bytes": 6611
+    },
+    {
+      "path": "scripts/environment-packages/verify-local-mvp.ps1",
+      "sha256": "7f0516ef3a2b027d2cd634dce1d102ae6d7d9224860ed0b969dc5de49e9e9cf9",
+      "bytes": 4757
+    }
+  ],
+  "limitations": [
+    "Source-only technical candidate; not a runnable Windows package or installed connector.",
+    "Exact rights, dependency and operational review, final tree/history scans, MIT notices, public-exposure approval, and GitHub readback remain open."
+  ]
+}

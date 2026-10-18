@@ -1,0 +1,3 @@
+# Dependency and runtime notices
+
+This source-only draft bundles no third-party library, native binary, certificate, signing key, external game content, or installed environment package. The selected JavaScript/TypeScript files name `esbuild`, `postcss`, `tailwindcss`, and `typescript` as external package imports. The scripts also refer to other private-platform modules, build inputs, local test profiles, and Windows process behavior. Review those inputs and their license terms before attempting any integration. Source availability alone does not authorize connector pairing, an installed-clock operation, an updater action, or use of a private tunnel.
